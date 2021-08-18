@@ -1,0 +1,319 @@
+/* myStyle.css */
+body {
+  margin: 0%;
+  padding: 0%;
+}
+/*-- header---*/
+.navbar {
+  margin: 2% 10%;
+  display: flex;
+}
+/* The container <div> - needed to position the dropdown content */
+.departments {
+  position: relative;
+  display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 268px;
+}
+/* Show the dropdown menu on hover */
+.departments:hover .dropdown-content {
+  display: block;
+}
+.navbar img {
+  width: 25%;
+}
+.navbar div {
+  color: #00b39b;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  line-height: 2em;
+  padding: 1.33em 0;
+}
+.menu {
+  display: flex;
+  width: 30%;
+}
+div.navbar {
+  justify-content: space-between;
+}
+.menu p {
+  margin: auto;
+}
+/*-- header end ---*/
+/*--section inner--*/
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.pg {
+  display: flex;
+  margin: 1% 20%;
+  color: gray;
+  font-size: 16px;
+  line-height: 1.75;
+  font-weight: 400;
+}
+h1.inner {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+P.pg {
+  padding: 0% 10%;
+}
+/*-- section country ---*/
+section#select {
+  display: flex;
+  justify-content: space-between;
+  margin: 10%;
+}
+/* -- box 1 */
+div.patients {
+  background-color: #00b39b;
+  color: white;
+  width: 50%;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px cadetblue;
+  padding: 3.375em 1.25em 37px;
+}
+/* -- box 2 */
+div.doctors {
+  background-color: #3d83df;
+  color: white;
+  width: 50%;
+  margin: 0px 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px cadetblue;
+
+  padding: 3.375em 1.25em 37px;
+}
+/* -- box 3 */
+div.clinics {
+  background-color: #1b2734;
+  color: white;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px cadetblue;
+  padding: 3.375em 1.25em 37px;
+}
+.doctors h3 {
+  color: white;
+  font-style: "Roboto", sans-serif;
+}
+/* -- logos box */
+section#logos {
+  display: flex;
+  margin: 10%;
+}
+.logos {
+  display: flex;
+  flex-direction: column;
+}
+#logos h1 {
+  color: #00b39b;
+  margin: 0.25em 0 0.35em;
+  padding-right: 1em;
+  font-size: xx-large;
+}
+/* --platform */
+
+#platform {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e5faf8;
+}
+.Div-all {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+
+  justify-content: space-around;
+}
+div.col1,
+div.col2,
+div.col3,
+div.col4 {
+  display: flex;
+  padding: 1%;
+  margin: 1%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 35%;
+  align-items: center;
+  background-color: white;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  width: 35%;
+}
+
+#platform h2 {
+  font-size: 2.125rem;
+  font-weight: 300;
+  text-align: center;
+  color: #00b39b;
+}
+#platform p {
+  font-size: larger;
+  margin: 0.6em 0;
+  padding: 5%;
+}
+img#extra {
+  margin: -6%;
+  /* hide the extra  */
+  height: 80%;
+}
+#platform div {
+  overflow: hidden;
+}
+/* -- grid photo */
+section#country-img {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 10%;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  margin: 2% 10%;
+  flex-direction: column;
+}
+.grid h2,
+p {
+  font-family: "Roboto";
+  text-align: center;
+}
+div#select img {
+  display: flex;
+  width: 10%;
+}
+.grid-country-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2% 10%;
+  height: 100%;
+}
+div.country-container img {
+  max-width: 90%;
+  height: auto;
+  margin: 2% 10%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 3%;
+}
+div.country-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+div.under_img {
+  display: flex;
+  padding: 2% 10%;
+  max-width: 100%;
+  justify-content: space-between;
+}
+span .under-img {
+  font-size: larger;
+}
+.under-img button {
+  background-color: #3d83df;
+  font-size: large;
+}
+
+/*boxes respensive design*/
+
+@media all and (max-width: 800px) {
+  section#select {
+    flex-wrap: wrap;
+  }
+  div.patients {
+    background-color: #00b39b;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  /* -- box 2 */
+  div.doctors {
+    background-color: #3d83df;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    margin: 15px 0px;
+  }
+  /* -- box 3 */
+  div.clinics {
+    background-color: #1b2734;
+    color: white;
+    width: 10%;
+    border-radius: 10px;
+  }
+  .doctors h3 {
+    color: white;
+    font-style: "Roboto", sans-serif;
+  }
+}
+/* -- svg */
+div.grid-container svg,
+div.grid-container img {
+  -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg)
+    brightness(300%) contrast(0);
+  opacity: 0.55;
+  filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%)
+    contrast(0);
+}
+div.grid-container svg:hover,
+div.grid-container img:hover {
+  -webkit-filter: none;
+  opacity: 1;
+  filter: none;
+  fill: #00b39b;
+  width: 30%;
+}
+/* div last  button */
+.buttonn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 520px;
+  margin: 0 auto;
+  font-size: 1.875em;
+  text-align: center;
+  justify-content: space-around;
+}
+.buttonn button {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 1.1666666667em 1.5em;
+  background: #3d83df;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: all 0.2s ease 0s;
+}
+/* footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

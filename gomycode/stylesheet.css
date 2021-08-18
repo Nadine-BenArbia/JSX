@@ -1,0 +1,129 @@
+/* myStyle.css */
+body {
+  background-color: #2b106a;
+}
+/*  topnav */
+h1 {
+  color: #ffd3ff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  display: flex;
+}
+.logo h1 {
+  margin-left: auto;
+}
+.logo img {
+  margin: auto auto auto 15px;
+  width: 25px;
+  height: 25px;
+}
+.topnav {
+  background-color: #ffd3ff;
+  display: flex;
+  padding: 20px 0px;
+}
+.topnav a {
+  margin: auto;
+}
+
+/*  section */
+#about div {
+  display: flex;
+  background-color: #ffd3ff;
+}
+#about h2 {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #ffd3ff;
+  text-align: center;
+  
+}
+#about img {
+  margin-right: auto;
+}
+#about p {
+  margin-left: 25px;
+  font-family: "Roboto", sans-serif;
+}
+#myGITHUB {
+  padding: 3px 10px;
+  background-color: #ffd3ff;
+  border-radius: 50px;
+  color: black;
+  text-decoration: none;
+}
+#myGITHUB:hover {
+  background: black;
+  color: #ff9671;
+}
+#Myresume {
+  padding: 3px 10px;
+  background-color: #ffd3ff;
+  border-radius: 50px;
+  color: black;
+  text-decoration: none;
+}
+#Myresume:hover {
+  background: white;
+  color: #ff9671;
+}
+/* section 3 */
+h2 { 
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #ffd3ff;
+  text-align: center;
+}
+#hobbies {
+  background-color: #ffd3ff;
+  padding: 10px;
+}
+
+}
+#hobbies p {
+  margin-left: 25px;
+  font-family: "Roboto", sans-serif;
+  color: #2b106a;
+}
+#hobbies h2 {
+  
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color:#2b106a  ;
+
+}
+#hobbies .video {
+  display: flex;
+}
+
+#hobbies iframe {
+  margin: auto;
+}
+
+/* section contact*/
+#contact input {
+  width: 30%;
+  margin: 0px 20px;
+}
+#contact {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #ffd3ff;
+  text-align: center;
+}
+/* footer*/
+footer {
+  display: flex;
+}
+footer .icon-bar {
+  margin-left: auto;
+}
+footer .copyright {
+  margin-right: auto;
+}
+.copyright {
+  font-family: "Roboto", sans-serif;
+  color: #ffd3ff;
+}

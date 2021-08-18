@@ -1,0 +1,135 @@
+/* myStyle.css */
+
+
+body {
+    margin: 0;
+}
+
+}
+section body {
+  background-color: white;
+  margin: inherit;
+  padding: 20%;
+}
+/*-- navbar */
+img.img_navbar {
+  max-width: 9%;
+}
+section#navbar {
+  color: #00b39b;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+nav.main-menu{
+display: flex;
+}
+
+}
+#navbar {
+  display: flex;
+}
+img.main_header {
+  max-width: 6%;
+  
+}
+h1  {
+font-size: 2.125rem;
+color: #00b39b;
+}
+section#experience{ 
+  text-align: center;
+  margin: 10px;
+
+}
+::selection {
+  background: #00b39b;
+  color: #fff;
+  text-shadow: none;
+}
+div.row { 
+  display: flex;
+  line-height: 1.75;
+  color: #464843;
+  font-size: large;
+  font-family: "Roboto",Arial,sans-serif;
+  -webkit-text-size-adjust: 100%;
+  font-weight: bolder;
+
+}
+section#select { 
+  display: flex;
+}
+div.patients{ 
+  background-color: #00ccb1;
+  padding: 5px;
+  margin-left: ;
+  margin-right: 5px;
+
+}
+img h3 { 
+  display:flex;
+}
+
+h3 { 
+  display: flex;
+  font-family: Work Sans,Arial,sans-serif;
+  letter-spacing: -.3px;
+  color: white;
+  font-weight: bold ;
+}
+.slc{ display: flex;
+  font-family: Work Sans,Arial,sans-serif;
+  letter-spacing: -.3px;
+  color: white;
+  font-weight: bold ;
+
+}
+label { 
+  display: flex;
+  font-family: Work Sans,Arial,sans-serif;
+  letter-spacing: -.3px;
+  color: white;
+  font-weight: bold ;
+  text-decoration: underline
+}
+div.doctors { 
+  background-color: #3d83df;
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+div.clinics{ 
+  background-color: #1b2734;
+  margin-left: 5px;
+}
+
+/*-- section select  -*/
+
+#logos { 
+  display: flex;
+   
+    margin: 2.5rem auto 3.125rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template: 50px / auto auto auto;
+  grid-gap: 10px;
+  background-color: ;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+
+
+
+footer { 
+  text-align: center;
+}

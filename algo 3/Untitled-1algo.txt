@@ -1,0 +1,36 @@
+PROCEDURE Ps_product(v1,v1:array_of integer var ps:integer)
+VAR
+   i:INTEGER
+BEGIN
+    Ps:=0
+    i:=0
+    if (v1.length <> v2.length) then 
+    write ("diffrent size we cant calcult PS")
+    ps:=Nan;
+    end_if
+    WHILE (i= v1.length-1 ) DO
+        ps := ps+v1[i]*v2[i]
+    END_WHILE
+END
+    ALGORITHM chackpoint_algo3
+    VAR
+        v1,v2: array_of integer [50];
+        Ps: integer
+
+    BEGIN
+        REPEAT
+            read("v1 length")
+        UNTIL (n1>0)
+        REPEAT
+            read("v2 length")
+        UNTIL (n2>0)
+        write 
+        Ps_product (v1,v2,Ps)
+        if (ps=0) then 
+        write("v1 et v2 re orthogonal");
+        else 
+        write("v1 et v2 re'nt orthogonal")
+        end_if
+
+    END
+

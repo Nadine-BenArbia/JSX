@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>shoppinglist</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn.pngsumo.com/bag-basket-buy-cart-shop-shopping-store-icon-cart-icon-png-512_512.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+
+    <div id="navbar">
+      <div class="container">
+        <div class="row row1">
+          <ul class="largenav pull-right">
+            <li class="upper-links">
+              <a class="links" href="http://clashhacks.in/">Login & SignUp</a>
+            </li>
+            <li class="upper-links">
+              <a class="links" href="">
+                <svg
+                  class=""
+                  width="16px"
+                  height="12px"
+                  style="overflow: visible"
+                >
+                  <path
+                    d="M8.037 17.546c1.487 0 2.417-.93 2.417-2.417H5.62c0 1.486.93 2.415 2.417 2.415m5.315-6.463v-2.97h-.005c-.044-3.266-1.67-5.46-4.337-5.98v-.81C9.01.622 8.436.05 7.735.05 7.033.05 6.46.624 6.46 1.325v.808c-2.667.52-4.294 2.716-4.338 5.98h-.005v2.972l-1.843 1.42v1.376h14.92v-1.375l-1.842-1.42z"
+                    fill="#fff"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li class="upper-links dropdown">
+              <a class="links" href="">More</a>
+              <ul class="dropdown-menu">
+                <li class="profile-li">
+                  <a class="profile-links" href="">Contact Us</a>
+                </li>
+                <li class="profile-li">
+                  <a class="profile-links" href="">Advertise</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="row row2">
+          <div class="col-sm-2">
+            <h1 style="margin: 0px">
+              <span class="largenav"> blimpShop </span>
+            </h1>
+          </div>
+          <div class="navbar-search smallsearch col-sm-8 col-xs-11">
+            <div class="row">
+              <input
+                class="navbar-input col-xs-11"
+                type=""
+                placeholder="Search for Products, Brands and more"
+                name=""
+              />
+              <button class="navbar-button col-xs-1">
+                <svg width="15px" height="15px">
+                  <path
+                    d="M11.618 9.897l4.224 4.212c.092.09.1.23.02.312l-1.464 1.46c-.08.08-.222.072-.314-.02L9.868 11.66M6.486 10.9c-2.42 0-4.38-1.955-4.38-4.367 0-2.413 1.96-4.37 4.38-4.37s4.38 1.957 4.38 4.37c0 2.412-1.96 4.368-4.38 4.368m0-10.834C2.904.066 0 2.96 0 6.533 0 10.105 2.904 13 6.486 13s6.487-2.895 6.487-6.467c0-3.572-2.905-6.467-6.487-6.467 "
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="cart largenav col-sm-2">
+            <a class="cart-button">
+              <svg
+                class="cart-svg"
+                width="16 "
+                height="16 "
+                viewBox="0 0 16 16 "
+              >
+                <path
+                  d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86 "
+                  fill="#fff "
+                ></path>
+              </svg>
+              Cart <span class="item-number">3</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- items -->
+    <section class="shopping_card">
+      <div class="logo_name">
+        <img src="blimpshop.jpg" />
+        <h1>your purchase</h1>
+      </div>
+      <div class="flexbox">
+        <div class="item1">
+          <img
+            src="https://scontent.ftun6-1.fna.fbcdn.net/v/t1.6435-9/206496340_1840685552768954_4192199719963134950_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=825194&_nc_ohc=AsNMMV57snoAX9HsZxR&_nc_ht=scontent.ftun6-1.fna&oh=04c16e6de02e524abf6233caa0f4be83&oe=60F3D091"
+            alt="item pic"
+          />
+          <div class="button">
+            <button id="poke1">+</button>
+            <span id="counter">0</span>
+            <button id="poke2">-</button>
+          </div>
+          <span> 4 DT </span>
+        </div>
+        <div class="item2">
+          <img
+            src="https://scontent.ftun6-1.fna.fbcdn.net/v/t1.6435-9/201152457_1831845973652912_8701677716897929646_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=825194&_nc_ohc=43T7ob4Db9IAX9ZtDjC&_nc_ht=scontent.ftun6-1.fna&oh=2e167d04ed47c67900224522e75ab73e&oe=60F417EE"
+            alt="item pic"
+          />
+          <div class="button">
+            <button id="poke1">+</button>
+            <span id="counter">0</span>
+            <button id="poke2">-</button>
+          </div>
+          <span> 20 DT</span>
+        </div>
+        <div class="item3">
+          <img
+            src="https://scontent.ftun2-1.fna.fbcdn.net/v/t1.6435-9/216879451_1851760321661477_4851153503721845420_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=825194&_nc_ohc=R80U5UNOfXYAX-hFW7s&_nc_ht=scontent.ftun2-1.fna&oh=294ccca9fb9ad5445376d281ab049a75&oe=60F3B23D"
+            alt="item img"
+          />
+          <div class="button">
+            <button id="poke1">+</button>
+            <span id="counter">0</span>
+            <button id="poke2">-</button>
+          </div>
+          <span> 25 DT </span>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
